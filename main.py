@@ -37,8 +37,8 @@ def is_night():
     if time_now >= sunset or time_now <= sunrise:
         return True
 
-my_email = "lokispamzzzz@gmail.com"
-passwd = "dnwmfvxpbhicuyjp"
+my_email = "your_email"
+passwd = "your_passwd"
 while True:
     time.sleep(60)
     if is_night() and is_overhead():
